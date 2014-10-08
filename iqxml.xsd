@@ -12,8 +12,8 @@
                 <xs:element name="start_date" type="xs:dateTime" />
                 <xs:element name="end_date" type="xs:dateTime" minOccurs="0" />
                 <xs:element name="issue" type="xs:string"/>
-                <xs:element name="min_valid_frequency" type="xs:number" minOccurs="0" />
-                <xs:element name="max_valid_frequency" type="xs:number" minOccurs="0" />
+                <xs:element name="min_valid_frequency" type="xs:double" minOccurs="0" />
+                <xs:element name="max_valid_frequency" type="xs:double" minOccurs="0" />
                 <xs:element name="generator_type" default="Human">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
