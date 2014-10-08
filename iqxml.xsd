@@ -4,29 +4,27 @@
     <xs:element name="StationSOH_report">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="network_code" type="xs:string">
-                    <xs:element name="station_code" type="xs:string"/>
-                    <xs:element name="channel_code" type="xs:string">
-                        <xs:element name="location_code" type="xs:string"/>
-                        <​​xs:element name="instrument" type="xs:string"/>
-                    <xs:element name="start_date" type="xs:dateTime" />
-                    <xs:element name="end_date" type="xs:dateTime" minOccurs="0" />
-                    <xs:element name="issue" type="xs:string"/>
-                    <xs:element name="min_valid_frequency" type="xs:number"
-                        minOccurs="0" />
-                    <xs:element name="max_valid_frequency" type="xs:number"
-                        minOccurs="0" />
-                    <xs:element name=“generator type” default=“Human”>
-                        <xs:simpleType>
-                            <xs:restriction base=“xs:string”>
-                                <xs:enumeration value=“Human”/>
-                                <xs:enumeration value=“Automatic”/>
-                                <xs:enumeration value=“Unknown”/>
-                            </xs:restriction>
-                        </xs:simpleType>
-                    </xs:element>
-                </xs:sequence>
-            </xs:complexType>
-        </xs:element>
+                <xs:element name="network_code" type="xs:string"/>
+                <xs:element name="station_code" type="xs:string"/>
+                <xs:element name="channel_code" type="xs:string"/>
+                <xs:element name="location_code" type="xs:string"/>
+                <xs:element name="instrument" type="xs:string"/>
+                <xs:element name="start_date" type="xs:dateTime" />
+                <xs:element name="end_date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="issue" type="xs:string"/>
+                <xs:element name="min_valid_frequency" type="xs:number" minOccurs="0" />
+                <xs:element name="max_valid_frequency" type="xs:number" minOccurs="0" />
+                <xs:element name=“generator type” default=“Human”>
+                    <xs:simpleType>
+                        <xs:restriction base=“xs:string”>
+                            <xs:enumeration value=“Human”/>
+                            <xs:enumeration value=“Automatic”/>
+                            <xs:enumeration value=“Unknown”/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 
-    </xs:schema>
+</xs:schema>
