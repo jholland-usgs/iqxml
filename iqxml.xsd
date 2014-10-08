@@ -4,6 +4,7 @@
     <xs:element name="StationSOH_report">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="report_id" type="xs:string"/>
                 <xs:element name="network_code" type="xs:string"/>
                 <xs:element name="station_code" type="xs:string"/>
                 <xs:element name="channel_code" type="xs:string"/>
