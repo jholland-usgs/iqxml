@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StationSOH_report>
+    <report_id>aslrt110</report_id>
+    <network_code>IU</network_code>
+    <station_code>ANMO</station_code>
+    <channel_code>??</channel_code>
+    <location_code>10</location_code>
+    <instrument>str1234</instrument>
+    <start_date>2012-12-13T12:12:12</start_date>
+    <end_date>2012-12-13T12:12:12</end_date>
+    <issue>The q330 malfunctioned.</issue>
+    <min_valid_frequency>5</min_valid_frequency>
+    <max_valid_frequency>10</max_valid_frequency>
+    <generator_type>Human</generator_type>
+</StationSOH_report>
