@@ -14,12 +14,12 @@
                 <xs:element name="issue" type="xs:string"/>
                 <xs:element name="min_valid_frequency" type="xs:number" minOccurs="0" />
                 <xs:element name="max_valid_frequency" type="xs:number" minOccurs="0" />
-                <xs:element name=“generator type” default=“Human”>
+                <xs:element name="generator_type" default="Human">
                     <xs:simpleType>
-                        <xs:restriction base=“xs:string”>
-                            <xs:enumeration value=“Human”/>
-                            <xs:enumeration value=“Automatic”/>
-                            <xs:enumeration value=“Unknown”/>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="Human"/>
+                            <xs:enumeration value="Automatic"/>
+                            <xs:enumeration value="Unknown"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
