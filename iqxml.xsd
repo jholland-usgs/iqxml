@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-    <xs:element name="StationSOH_report">
+    <xs:element name="Instrument_Quality_Problem_Notification">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="report_id" type="xs:string"/>
@@ -12,7 +12,8 @@
                 <xs:element name="instrument" type="xs:string"/>
                 <xs:element name="start_date" type="xs:dateTime" />
                 <xs:element name="end_date" type="xs:dateTime" minOccurs="0" />
-                <xs:element name="issue" type="xs:string"/>
+                <xs:element name="problem" type="xs:string"/>
+                <xs:element name="comments" type="xs:string"/>
                 <xs:element name="min_valid_frequency" type="xs:double" minOccurs="0" />
                 <xs:element name="max_valid_frequency" type="xs:double" minOccurs="0" />
                 <xs:element name="generator_type" default="Human">
